@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta property="og:title" content="خبير للتسويق | Khaber Landing Page" />
+    <meta
+      property="og:description"
+      content="Modern RTL landing page built with vanilla HTML, CSS, and JS."
+    />
+    <meta
+      property="og:image"
+      content="https://khaber-marketing.ahmedsaidadnan.com/assets/images/preview.png"
+    />
+    <meta
+      property="og:url"
+      content="https://khaber-marketing.ahmedsaidadnan.com"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/assets/images/fav.png" type="image/x-icon" />
+    <title>خبير للتسويق</title>
+  </head>
+  <body>
+    <!-- Navbar-S -->
+    <nav class="navbar">
+      <!-- Desktop-S -->
+      <a href="#" class="logo">
+        <img src="/assets/images/logo.png" alt="خبير للتسويق" width="160" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#" active>الرئيسية</a></li>
+        <li><a href="#">نبذة عنا</a></li>
+        <li><a href="#">خدماتنا</a></li>
+      </ul>
+      <a href="#" class="main-btn contact-us">
+        <span>تواصل معنا</span>
+        <img src="/assets/icons/arrow-up-right.svg" alt="" />
+      </a>
+      <!-- Desktop-E -->
+      <!-- Mobile-S -->
+      <button class="mobile-menu-btn">
+        <img src="/assets/icons/menu.svg" alt="قائمة" />
+      </button>
+      <!-- Mobile Menu Overlay & Sidebar -->
+      <div class="mobile-menu-container">
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+        <div class="mobile-sidebar" id="mobileSidebar">
+          <button class="close-btn" id="closeBtn">
+            <img src="/assets/icons/close.svg" alt="إغلاق" />
+          </button>
+          <a href="#" class="logo">
+            <img src="/assets/logo.png" alt="خبير للتسويق" width="160" />
+          </a>
+          <ul class="mobile-nav-links">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">نبذة عنا</a></li>
+            <li><a href="#">خدماتنا</a></li>
+            <li><a href="#" class="main-btn contact-us">تواصل معنا</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Mobile-E -->
+    </nav>
+    <!-- Navbar-E -->
+    <!-- Hero-S -->
+    <section class="hero">
+      <!-- absolute images -->
+      <div class="images">
+        <img src="/assets/images/smoke.png" alt="" class="smoke" />
+        <img src="/assets/images/cloud.png" alt="" class="cloud-1" />
+        <img src="/assets/images/cloud.png" alt="" class="cloud-2" />
+        <img src="/assets/images/idea-hand.png" alt="" class="idea-hand" />
+        <img src="/assets/images/money-hand.png" alt="" class="money-hand" />
+      </div>
+      <!-- absolute images -->
+      <div class="hero-content">
+        <h1>من الفكرة إلى المنــــــــــح..</h1>
+        <p>
+          نصمم المبادرات بحلول إبداعية متكاملة واستراتيجيات ذكية للحصول على
+          المنح وتحقيق الأثر المستدام وفق أفضل الممارسات والمعايير.
+        </p>
+        <div class="feats-n-btn">
+          <div class="feats">
+            <div class="feat-card">
+              <img src="/assets/icons/building.svg" alt="" />
+              <div>
+                <div class="label">100+</div>
+                <div class="text">جهــة موّلنـــاها بنجاح</div>
+              </div>
+            </div>
+            <div class="separator"></div>
+            <div class="feat-card">
+              <img src="/assets/icons/fund.svg" alt="" />
+              <div>
+                <div class="label">500 ألف ريال</div>
+                <div class="text">تم تمويلهم في اخر مشروع</div>
+              </div>
+            </div>
+          </div>
+          <a href="" class="main-btn">🚀 ابدأ الآن وحقق مبادرتك بنجاح!</a>
+        </div>
+      </div>
+    </section>
+    <!-- Hero-E -->
+    <!-- Values-S -->
+    <section class="values">
+      <img src="/assets/images/polygons.png" alt="" class="polygons-img" />
+      <div class="content">
+        <h2>
+          قيـــــ
+          <span>منا</span>
+        </h2>
+        <p>
+          معكم في كل خطوة منذ انطلاق الفكرة حتى تحقيق النجاح، نوفر لكم الدعم
+          الكامل لضمان حصولكم على المنح وتنفيذ المبادرات باحترافية، مع الحرص على
+          تقديم أفضل الحلول لتحقيق أقصى أثر ممكن! 🚀
+        </p>
+      </div>
+      <div class="cards">
+        <div class="value-card" active>
+          <div class="img-holder">
+            <img src="/assets/icons/idea.svg" alt="" />
+          </div>
+          <h4>الإبتكار</h4>
+          <p>
+            نبحــــث دائمًــــا عن أفكار وحلـــول جديدة ترفع من جودة المبادرات
+            وتزيد فرص نجاحها.
+          </p>
+        </div>
+        <div class="value-card">
+          <div class="img-holder">
+            <img src="/assets/icons/shake.svg" alt="" />
+          </div>
+          <h4>الشراكـــة</h4>
+          <p>
+            لدينا شراكات مثمرة مع الجهات المانحة ونعمل معكم كفريق لتحقيق النجاح
+          </p>
+        </div>
+        <div class="value-card">
+          <div class="img-holder">
+            <img src="/assets/icons/target.svg" alt="" />
+          </div>
+          <h4>الإتقـــان</h4>
+          <p>
+            نحرص على تقديم عمل متقن في كل مرحلة، من التخطيـــط إلى التنفيـــذ
+            والإغلاق.
+          </p>
+        </div>
+        <div class="value-card">
+          <div class="img-holder">
+            <img src="/assets/icons/lock.svg" alt="" />
+          </div>
+          <h4>الخصوصية والسرية</h4>
+          <p>نحافظ على ســـــرية بياناتكم ونتعامل معها بكل أمــــان وثقة.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Values-E -->
+    <!-- Footer-S -->
+    <footer>
+      <div class="container">
+        <div class="logo-desc">
+          <img src="/assets/images/logo-b.png" alt="" />
+          <p class="desc">
+            نصمم المبادرات بحلول إبداعية متكاملة واستراتيجيات ذكية للحصول على
+            المنح وتحقيق الأثر المستدام وفق أفضل الممارسات والمعايير.
+          </p>
+        </div>
+        <div class="col">
+          <h6>الصفحات</h6>
+          <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">نبذة عنا</a></li>
+            <li><a href="#">خدماتنا</a></li>
+            <li><a href="#">تواصل معنا</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>السياسات</h6>
+          <ul>
+            <li><a href="#">الدعم</a></li>
+            <li><a href="#">سياسة الخصوصية</a></li>
+            <li><a href="#">الشروط والأحكام</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h6>تواصل معنا</h6>
+          <ul>
+            <li>
+              <a href="#">
+                <img src="/assets/icons/email.svg" alt="" />
+                help@Khaber.com
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="/assets/icons/phone.svg" alt="" />
+                +1 234 456 678 89
+              </a>
+            </li>
+            <li class="socials">
+              <a href="#">
+                <img src="/assets/icons/youtube.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/assets/icons/facebook.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/assets/icons/twitter.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/assets/icons/instagram.svg" alt="" />
+              </a>
+              <a href="#">
+                <img src="/assets/icons/linkedin.svg" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="copyright">جميع الحقوق محفوظة لشركة خبير للتسويق . 2025</div>
+    </footer>
+    <!-- Footer-E -->
+
+    <!-- Import JavaScript -->
+    <script src="index.js"></script>
+  </body>
+</html>
